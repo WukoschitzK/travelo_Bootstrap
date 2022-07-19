@@ -1,0 +1,99 @@
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6em !important;
+    background-color: white !important;
+}
+
+#app {
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    //font-size: 44px !important;
+    //border: 1px solid red;
+
+    font-size: 2.5em !important;
+    //font-size: 70px !important;
+    line-height: 2.5em;
+}
+
+.subheadline {
+    font-size: 1.875em;
+    line-height: 2.25em;
+}
+
+.subheadline_text {
+    font-size: 1.25em;
+    line-height: 1.75em;
+}
+
+h2 {
+    font-size: 2.25em !important;
+    line-height: 2.5em;
+}
+
+.h2_subheadline {
+    font-size: 1.5em !important;
+    line-height: 2em;
+}
+
+.wrapper {
+    padding: 0 2em !important;
+}
+
+input,textarea {
+    border: 0;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+@media (min-width: $Tablet) {
+    h1 {
+        font-size: 4.5em !important;
+        line-height: 1;
+    }
+
+    .subheadline {
+        font-size: 2.25em;
+        line-height: 2.5em;
+    }
+
+    .subheadline_text {
+        font-size: 1.75em !important;
+        line-height: 1.5em;
+    }
+
+    .wrapper {
+        padding: 0 4em !important;
+    }
+}
+
+@media (min-width: $Desktop) {
+    .subheadline {
+        font-size: 2.75em;
+        line-height: 1;
+    }
+
+    h2 {
+        font-size: 3.75em !important;
+        line-height: 1em;
+    }
+
+    .wrapper {
+        padding: 0 7em !important;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+

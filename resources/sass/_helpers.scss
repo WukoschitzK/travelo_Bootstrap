@@ -1,0 +1,82 @@
+.font-yellow {
+  color: $main-color-yellow;
+}
+
+.header-img {
+  background-color: rgba(black, 0.65);
+
+  img {
+    mix-blend-mode: overlay;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.date-wrapper {
+  font-size: 1.5em !important;
+  line-height: 2em;
+}
+
+.text-place {
+  font-size: 0.875em !important;
+  line-height: 1.25em;
+}
+
+.post-headline {
+  font-size: 1.25em !important;
+  line-height: 1.75em;
+}
+
+.icon-more {
+  width: 20px
+}
+
+.rotate-icon {
+  transform: rotate(180deg);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  fill: #E6A900;
+}
+
+button {
+  background-color: $main-color-yellow;
+  border: none;
+}
+
+.img-upload {
+  border: 4px dashed gainsboro;
+}
+
+.color-lightgray {
+  color: rgb(156 163 175 / 1);
+}
+
+.mb-lg-section {
+  margin-bottom: 3em;
+}
+
+
+@media (min-width: $Tablet) {
+  .header-img {
+    height: 24rem;
+  }
+}
+
+@media (min-width: $Desktop) {
+  .header-img {
+    height: 100vh;
+
+    img {
+      object-position: left;
+    }
+  }
+
+  .w-lg-45 {
+    width: 45%;
+  }
+
+  .mb-lg-section {
+    margin-bottom: 5em;
+  }
+}
+
