@@ -5,7 +5,7 @@
 
         <div class="d-lg-flex flex-wrap justify-content-between mb-lg-section">
             <div v-for="(post, i) in posts" :key=i class="w-lg-45">
-                <div class="row">
+                <div class="row mb-5">
                     <div class="col-2 fw-bold date-wrapper">
                         <div class="border-bottom text-center">{{ splitDate(post.created_at).day }}</div>
                         <div class="text-center">{{ splitDate(post.created_at).year }}</div>
@@ -17,7 +17,7 @@
                                 <div>{{ post.country }} {{ post.city }}</div>
                             </div>
 <!--                            <img :src="'/storage/images/post_images/'+ post.image_path" alt="Picture of Post" />-->
-                          <img :src="post.image_path" alt="Picture of Post" />
+                          <img :src="post.image_path" alt="Picture of Post" class="w-100"/>
 
                             <div class="fw-bold post-headline">{{ post.title }}</div>
                             <div class="d-flex justify-content-between">

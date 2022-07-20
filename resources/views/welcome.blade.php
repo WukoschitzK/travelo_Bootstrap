@@ -20,16 +20,16 @@
 </head>
 <body>
 <div id="app">
-    <div class="row d-lg-flex mb-lg-section justify-content-lg-between align-items-lg-center flex-lg-row-reverse vh-100">
+    <div class="row d-lg-flex mb-lg-section flex-lg-row-reverse vh-100">
 
-        <div class="mb-5 g-0 header-img col-lg-5 position-relative">
+        <div class="g-0 header-img col-lg-5 position-relative">
             <img src="../img/header-img.jpg" alt="car" class="w-100 position-absolute">
         </div>
 
-        <div class="col-lg-7 wrapper">
+        <div class="col-lg-7 wrapper d-flex flex-column justify-content-lg-center">
             <h1 class="fw-bold font-yellow mb-3">Bist du auch
                 Travelo?</h1>
-            <p class="mb-5 lh-sm fw-light subheadline">Teile dein Erlebnis mit
+            <p class="mb-5 lh-sm fw-light subheadline">TEST Teile dein Erlebnis mit
                 der ganzen Welt.</p>
             <p class="fw-light subheadline_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
         </div>
