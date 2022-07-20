@@ -92848,9 +92848,11 @@ var render = function () {
         },
         [
           _c("div", { staticClass: "w-lg-45" }, [
-            _c("label", { staticClass: "d-inline-block color-lightgray" }, [
-              _vm._v("Upload\n                        Image(jpg,png)"),
-            ]),
+            _c(
+              "label",
+              { staticClass: "d-inline-block color-lightgray mb-2" },
+              [_vm._v("Upload\n                        Image(jpg,png)")]
+            ),
             _vm._v(" "),
             _c(
               "div",

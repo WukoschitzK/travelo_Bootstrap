@@ -14,7 +14,7 @@
             <form @submit.prevent enctype="multipart/form-data" class="d-lg-flex mb-5 flex-row-reverse justify-content-between">
 
                 <div class="w-lg-45">
-                    <label class="d-inline-block color-lightgray">Upload
+                    <label class="d-inline-block color-lightgray mb-2">Upload
                         Image(jpg,png)</label>
                     <div class="d-flex align-items-center justify-content-center mb-5">
                         <label
