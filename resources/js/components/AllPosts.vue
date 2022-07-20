@@ -16,8 +16,7 @@
                             <div class="text-place fw-bold mb-2">
                                 <div>{{ post.country }} {{ post.city }}</div>
                             </div>
-<!--                            <img :src="'/storage/images/post_images/'+ post.image_path" alt="Picture of Post" />-->
-                          <img :src="post.image_path" alt="Picture of Post" class="w-100"/>
+                            <img :src="post.image_path" alt="Picture of Post" class="w-100"/>
 
                             <div class="fw-bold post-headline mt-3">{{ post.title }}</div>
                             <div class="d-flex justify-content-between">
@@ -64,9 +63,6 @@ export default {
     computed: {
         ...mapState(['posts'])
     },
-    beforeMount() {
-        // this.$store.dispatch('getAllPosts');
-    },
     methods: {
         splitDate(date) {
             var arr1 = date.split('-');
@@ -102,9 +98,6 @@ export default {
                 )
                 .then((res) => {
                     this.posts = res.data;
-
-                    consolegit.log(res.data);
-
                 });
         },
     },

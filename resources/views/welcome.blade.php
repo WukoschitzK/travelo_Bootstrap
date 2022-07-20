@@ -4,12 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Travelo!</title>
-{{--    <link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
-
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" type="text/css">
     <script src="{{ mix('js/app.js') }}"></script>
     <style>
-        /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');*/
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
         #app {
             font-family: Poppins, Helvetica, Arial, sans-serif;
@@ -34,7 +31,7 @@
             <p class="fw-light subheadline_text">Travelo ist das Online-Tagebuch für Reisende aus aller Welt. Teile deine Reiseerlebnisse mit unserer Community. Travelon!</p>
         </div>
     </div>
-{{--    <img src="../img/header-img.jpg" alt="car">--}}
+
     <div class="wrapper">
         <all-posts></all-posts>
         <create-post></create-post>

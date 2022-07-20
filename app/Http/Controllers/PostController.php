@@ -33,7 +33,6 @@ class PostController extends Controller
 
             $name = Str::random(16) . '.' . $image->getClientOriginalExtension();
             $path = Storage::disk("s3")->putFileAs(config("app.name") . "/images/post_images", $image, $name);
-            //$image->storePubliclyAs('public/images/post_images', $name);
             $post->image_path = $path;
         }
 
