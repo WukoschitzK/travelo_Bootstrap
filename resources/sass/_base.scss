@@ -19,7 +19,7 @@ h1 {
     //font-size: 44px !important;
     //border: 1px solid red;
 
-    font-size: 2.5em !important;
+    font-size: 2.25em !important;
     //font-size: 70px !important;
     line-height: 2.5em;
 }
@@ -55,7 +55,7 @@ input,textarea {
 
 @media (min-width: $Tablet) {
     h1 {
-        font-size: 3.5em !important;
+        font-size: 3.8em !important;
         line-height: 1;
     }
 
@@ -93,10 +93,10 @@ input,textarea {
         padding: 0 7em !important;
     }
 
-    h1 {
-        font-size: 4.25em !important;
-        line-height: 1;
-    }
+    //h1 {
+    //    font-size: 4.25em !important;
+    //    line-height: 1;
+    //}
 }
 
 * {
