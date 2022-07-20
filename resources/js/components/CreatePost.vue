@@ -13,7 +13,7 @@
         <div>
             <form @submit.prevent enctype="multipart/form-data" class="d-lg-flex mb-5 flex-row-reverse justify-content-between">
 
-                <div class="w-lg-45">
+                <div class="w-lg-40">
                     <label class="d-inline-block color-lightgray mb-2">Upload
                         Image(jpg,png)</label>
                     <div class="d-flex align-items-center justify-content-center mb-5">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
 
-                <div class="w-lg-45">
+                <div class="w-lg-40">
                     <div class="d-flex flex-column flex-lg-row mb-3">
                         <label for="title" class="w-25">Title</label>
                         <input

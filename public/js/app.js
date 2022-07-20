@@ -92847,7 +92847,7 @@ var render = function () {
           },
         },
         [
-          _c("div", { staticClass: "w-lg-45" }, [
+          _c("div", { staticClass: "w-lg-40" }, [
             _c(
               "label",
               { staticClass: "d-inline-block color-lightgray mb-2" },
@@ -92926,7 +92926,7 @@ var render = function () {
             ),
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "w-lg-45" }, [
+          _c("div", { staticClass: "w-lg-40" }, [
             _c("div", { staticClass: "d-flex flex-column flex-lg-row mb-3" }, [
               _c("label", { staticClass: "w-25", attrs: { for: "title" } }, [
                 _vm._v("Title"),

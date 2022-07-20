@@ -156,6 +156,9 @@ button {
     -o-object-position: left;
        object-position: left;
   }
+  .w-lg-40 {
+    width: 40%;
+  }
   .w-lg-45 {
     width: 45%;
   }
