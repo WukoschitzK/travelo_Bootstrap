@@ -31,7 +31,7 @@
                 Travelo?</h1>
             <p class="mb-5 lh-sm fw-light subheadline">Teile dein Erlebnis mit
                 der ganzen Welt.</p>
-            <p class="fw-light subheadline_text">Travelo ist das Online-Tagebuch für reisende aus aller Welt. Teile deine Reiseerlebnisse mit unserer Community. Travelon!</p>
+            <p class="fw-light subheadline_text">Travelo ist das Online-Tagebuch für Reisende aus aller Welt. Teile deine Reiseerlebnisse mit unserer Community. Travelon!</p>
         </div>
     </div>
 {{--    <img src="../img/header-img.jpg" alt="car">--}}
