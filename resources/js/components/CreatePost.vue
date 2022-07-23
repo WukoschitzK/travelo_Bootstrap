@@ -1,5 +1,5 @@
 <template>
-    <div :key="componentKey">
+    <div>
         <h2 class="font-yellow fw-bold">Dein Eintrag zählt.</h2>
         <p class="fw-light h2_subheadline lh-sm mb-lg-section">Erzähl Travelo deine Geschichte.</p>
 
